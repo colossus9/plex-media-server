@@ -28,7 +28,7 @@ These are the steps following during the initial setup. The original version of 
 	- `/workspace/plex/software`
 	- `/workspace/plex/backups`
 - [Installed SSH Server](https://help.ubuntu.com/lts/serverguide/openssh-server.html.en)  (kept default values) and networking tools
-	- `sudo apt install openssh-client openssh-server net-tools`
+	- `sudo apt install curl openssh-client openssh-server net-tools`
 	- Setup ssh key pair
 - Copied `plexmediaserver_1.13.4.5271-200287a06_amd64.deb` to `/workspace/plex/software`
 - Follow [Installation Article](https://support.plex.tv/articles/200288586-installation/)
