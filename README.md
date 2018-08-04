@@ -70,11 +70,6 @@ These are the steps following during the initial setup. The original version of 
 		- Go to **Power** and disable “Suspend when laptop lid is closed”
 - Created `ext4` partition on external drive, ran `sudo nano -w /etc/fstab`, and added the following:
 	- `/dev/sdb1 /workspace/mount/WDMyBookDuo ext4 rw 0 0`
-- Put Blu-Ray config into place:
-    ```
-    mkdir ~/.config/aacs 
-    curl http://vlc-aacs.whoknowsmy.name/files/KEYDB.cfg > ~/.config/aacs/KEYDB.cfg
-    ```
 
 ## Upgrading
 To upgrade Plex Media Server on Ubuntu:
