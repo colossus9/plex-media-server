@@ -62,7 +62,7 @@ These are the steps following during the initial setup. The original version of 
 	- Scheduled Tasks
 		- Update **Backup Directory** to `/workspace/plex/backups`
 - Installed **Handbrake**, **gparted**, **VLC**, and **GNOME Tweaks** via **Ubuntu Software**
-	- `sudo apt-get install ubuntu-restricted-extras libdvdcss2 browser-plugin-vlc`
+	- `sudo apt-get install ubuntu-restricted-extras libdvdcss2 browser-plugin-vlc libaacs0 libbluray2 libbluray-bdj`
 	- `sudo dpkg-reconfigure libdvd-pkg`
 	- For DVDs, use Preset **HQ 480p30 Surround**
 	- Use **Add to Queue** to rip specific episodes?
